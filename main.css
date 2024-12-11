@@ -202,6 +202,8 @@ h1 {
 }
 
 .card-1 {
+    width: 216px;
+    height: 164px;
     padding: 27px 19px;
     top: 134px;
     left: 31px;
@@ -314,8 +316,6 @@ footer p {
 
 /* -Re-usables- */
 .card {
-    width: 216px;
-    height: 164px;
     font-size: .625rem;
     background-color: var(--background-color);
     position: absolute;
