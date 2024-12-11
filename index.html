@@ -223,6 +223,22 @@
 
         checkbox.checked = false;
     }
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const sidebar = document.querySelector(".sidebar");
+
+        function setSidebarHeight() {
+            const viewportHeight = window.visualViewport.height; // Dynamically get visible viewport height
+            sidebar.style.height = `${viewportHeight}px`;
+        }
+
+        // Call on page load
+        setSidebarHeight();
+
+        // Recalculate when the viewport changes (e.g., address bar hiding, rotation, etc.)
+        window.visualViewport.addEventListener("resize", setSidebarHeight);
+    });
+
 </script>
 
 </html>
