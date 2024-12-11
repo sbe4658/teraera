@@ -79,6 +79,7 @@ header {
     overflow-y: auto;
     padding-bottom: 72px;
     background-color: var(--background-color);
+    display: flex;
     flex-direction: column;
     padding: 24px 24px;
     position: fixed;
@@ -103,6 +104,7 @@ header {
 }
 
 .top-nav {
+    justify-self: start;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -141,17 +143,10 @@ header {
     transform: scale(1.1);
 }
 
-
-/* .back-btn:focus     ,
-.menu-btn:focus {
-    outline: 2px solid var(--primary-color);
-    outline-offset: 2px;
-} */
-
 .bottom-nav {
     display: flex;
     gap: 12px;
-    position: fixed;
+    position: absolute;
     bottom: 24px;
     width: 100%;
     max-width: 320px;
