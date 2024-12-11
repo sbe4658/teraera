@@ -191,7 +191,7 @@ h1 {
     background-color: #e4d590;
     display: flex;
     justify-content: center;
-    max-width: 530px;
+    max-width: 100%;
     border-radius: 30px;
     position: relative;
 }
