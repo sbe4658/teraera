@@ -169,7 +169,7 @@ header {
 }
 
 h1 {
-    font-size: 3.0625rem;
+    font-size: 2.7rem;
 }
 
 .insight {
@@ -196,10 +196,15 @@ h1 {
     position: relative;
 }
 
+.features .logo-icon {
+    width: 324px;
+    height: 514px;
+}
+
 .card-1 {
     padding: 27px 19px;
-    top: 149px;
-    left: 45px;
+    top: 134px;
+    left: 31px;
     transform: rotate(-6deg);
 }
 
@@ -233,40 +238,42 @@ h1 {
 }
 
 .features .card-2 {
-    right: 35px;
-    bottom: 100px;
-    padding: 17.6px 38px;
-    width: 301px;
-    height: 270px;
+    right: 24px;
+    bottom: 62px;
+    padding: 17.6px 24px;
+    width: 208px;
+    height: 187px;
     gap: 1px;
     transform: rotate(7deg);
 }
 
 .card-2,
 .card-2 p {
-    font-size: .75rem;
+    font-size: 0.437rem;
 }
 
 .card-2 table th {
     border-bottom: 1px solid var(--text-color);
-    padding-bottom: 8px;
+    padding-bottom: 4px;
 }
 
 .card-2 .line {
     height: 1px;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
 
 }
 
 .card-2 td svg {
     vertical-align: middle;
+    width: 29px;
+    height: 29px;
 }
 
 .card-2 th,
 .card-2 td {
-    font-size: .75rem;
+    font-size: .437rem;
     text-align: left;
-    padding: 5.7px 0 0 0;
+    padding: 1px 0 0 0;
     font-weight: 400;
 }
 
@@ -307,20 +314,20 @@ footer p {
 
 /* -Re-usables- */
 .card {
-    width: 312px;
-    height: 238px;
-    font-size: 1.0625rem;
+    width: 216px;
+    height: 164px;
+    font-size: .625rem;
     background-color: var(--background-color);
     position: absolute;
     border-radius: 22px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 16%);
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    justify-content: space-between;
 }
 
 .card h2 {
-    font-size: 1.0625rem;
+    font-size: .75rem;
     font-weight: 600;
 }
 

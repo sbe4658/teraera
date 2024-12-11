@@ -28,7 +28,7 @@
                     </g>
                 </svg>
             </label>
-            <div class="lamination"></div>
+            <div onclick=closeSidebar() class="lamination"></div>
             <div class="sidebar">
                 <nav class="top-nav">
                     <label for="sidebar-active">
@@ -78,7 +78,7 @@
                         </svg>
                         <h2>Order review</h2>
                     </div>
-                    <svg id="Group_2" data-name="Group 2" xmlns="http://www.w3.org/2000/svg" width="262" height="12"
+                    <svg id="Group_2" data-name="Group 2" xmlns="http://www.w3.org/2000/svg" width="181" height="8.30"
                         viewBox="0 0 181.025 8.291">
                         <rect id="Rectangle_7" data-name="Rectangle 7" width="58.729" height="8.291" rx="4.146"
                             transform="translate(0 0)" fill="#e4d590" />
@@ -147,7 +147,7 @@
                         </tr>
                     </table>
                 </div>
-                <img src="assets/Icon logo.png" alt="icon logo of teraera 3 times">
+                <img class="logo-icon" src="assets/Icon logo.png" alt="icon logo of teraera 3 times">
             </div>
             <div class="rating">
                 <p>4.7/5</p>
@@ -217,5 +217,12 @@
         </footer>
     </main>
 </body>
+<script>
+    function closeSidebar() {
+        const checkbox = document.getElementById("sidebar-active");
+
+        checkbox.checked = false;
+    }
+</script>
 
 </html>
