@@ -73,7 +73,7 @@ header {
 }
 
 .sidebar {
-    width: 320px;
+    width: 310px;
     max-height: 100vh;
     height: calc(100vh - env(safe-area-inset-bottom));
     overflow-y: auto;
